@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-size: 20px
+}
+
+.filler {
+  background-color: #006699; /* dark blue color */
+  position: absolute;
+  top: 0px;
+  height: 130px;
+  width: 100%;
+  margin: 0;
+  
+}
+
+header {
+    background-color: #006699; /* dark blue color */
+    color: black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center; /* center the ul elements within the nav element */
+    align-items: center; /* vertically center the text within the ul elements */
+    justify-content: space-between; /* position the left and right elements on opposite sides of the header */
+    position: sticky; /* position the header at the top of the page */
+    top: 0; /* keep the header at the top of the page as the user scrolls */
+    max-width: 100%; /* make the header span the full width of the page */
+    z-index: 1; /* make the header appear above other elements on the page */
+}
+
+.left {
+    font-size:50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main h2 {
+    margin: 20px 0;
+    font-size: 34px;
+}
+
+section {
+    margin: 80px 0;
+}
+
+footer {
+    background-color: #006699;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #00b8d4; /* blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  
+    width: 150px; /* set a fixed width for the button */
+    text-align: center; /* center the text within the button */
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #00acc1; /* slightly darker blue color on hover */
+}
