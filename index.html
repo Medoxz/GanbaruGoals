@@ -2,7 +2,7 @@
 
 <head>
     <title>Goal Tracker</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -11,7 +11,7 @@
         
         <div class="left">
             <img src="00004-1269336835-, vectorize app logo, [Converted].svg" alt="Logo" width="60" height="60">
-            <div>Tracker</div>
+            <div class="left">Ganbaru</div>
         </div>
         <nav class="right">
             <ul>
@@ -22,6 +22,25 @@
         </nav>
     </header>
     <main>
+        <form action="/Dashboard/Goal/" class="coolForm">
+            <div class="centerPiece">
+                <div  class="centerWords">What do you want to 
+                    <span class="centerAchieve">achieve</span>
+                </div>
+                ?
+            </div>
+            <input type="text" id="what" name="achievement" autocomplete="off" autofocus="on"><br>
+            <span class="centerAchieve">when?</span>
+            <select name="when" id="colors">
+                <option value="2hours">in 2 hours</option>
+                <option value="1day">in 1 day</option>
+                <option value="1month" selected>in 1 month</option>
+                <option value="1year">in 1 year</option>
+              </select>
+            <button type="submit">
+                Start setting goals
+            </button>
+        </form> 
         <section id="about">
             <h2>About Ganbaru Goals</h2>
             <p>Goal Tracker is a web-based application that helps you set and track your goals. Whether you want to lose
